@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\tyuiu.zamjakinaoa.sprint1.task0.v0.lib\Tyuiu.ZamyakinaOA.Sprint1.Task0.V16.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.ZamyakinaOA.Sprint1.Task0.V16.Lib\Tyuiu.ZamyakinaOA.Sprint1.Task0.V16.Lib.csproj" />
   </ItemGroup>
 
   <ItemGroup>
