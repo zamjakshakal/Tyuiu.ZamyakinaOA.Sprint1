@@ -18,9 +18,9 @@ namespace Tyuiu.ZamyakinaOA.Sprint1.Task4.V11
             Console.WriteLine("* Выполнила: Замякина Олеся Андреевна | ПКТб-25-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая позволяет найти произведение цифр заданного *");
-            Console.WriteLine("* трехзначного числа. Ответ округлите до 3 знаков после запятой.          *");
-            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
+            Console.WriteLine("* вычисляет результат по формуле и печатает его на экране. Ответ          *");
+            Console.WriteLine("* округлите до 3 знаков после запятой.                                    *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
@@ -37,7 +37,7 @@ namespace Tyuiu.ZamyakinaOA.Sprint1.Task4.V11
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate(x, y));
+            Console.WriteLine("arctg(x) / e^y = " + ds.Calculate(x, y));
 
             Console.ReadKey();
         }
