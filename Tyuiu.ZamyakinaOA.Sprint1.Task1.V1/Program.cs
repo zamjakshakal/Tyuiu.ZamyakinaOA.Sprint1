@@ -40,7 +40,7 @@ namespace Tyuiu.ZamyakinaOA.Sprint1.Task1.V1
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate(x, y, a));
+            Console.WriteLine(Math.Round(ds.Calculate(a, x, y), 2));
 
             Console.ReadLine();
         }
