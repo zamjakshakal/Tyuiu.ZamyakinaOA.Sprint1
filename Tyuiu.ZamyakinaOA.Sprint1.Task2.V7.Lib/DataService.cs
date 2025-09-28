@@ -6,7 +6,7 @@ namespace Tyuiu.ZamyakinaOA.Sprint1.Task2.V7.Lib
     {
         public double CalculateSquareCircle(int value)
         {
-            return 3.141 * (value * value);
+            return Math.PI * (value * value);
         }
     }
 }
