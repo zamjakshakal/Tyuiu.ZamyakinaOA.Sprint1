@@ -27,14 +27,14 @@ namespace Tyuiu.ZamyakinaOA.Sprint1.Task1.V1
 
             double x, y, a;
 
+            Console.WriteLine("Введите значение A:");
+            a = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("Введите значение X:");
             x = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Введите значение Y:");
             y = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Введите значение A:");
-            a = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
